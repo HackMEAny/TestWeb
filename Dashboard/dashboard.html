@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Line Chart</title>
+    <script src="https://d3js.org/d3.v3.min.js"></script>
+    <script src="https://www.chartjs.org/dist/2.9.4/Chart.min.js"></script>
+    <script src="https://www.chartjs.org/samples/latest/utils.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/epoch/0.8.4/js/epoch.js"></script> -->
+    <link rel="stylesheet" href="./style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    </head>
+
+    <!-- <div id="lineChart" style="width: 800px; height: 200px"></div> -->
+    <body>
+        <header>
+        <header id="navigation">
+        <a href="#" id="logo">Welcome</a>
+        <div id="menu">
+            <ul>
+                <li><a href="../Dashboard/dashboard.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="../SignUp_Login/index.html">Logout</a></li>
+            </ul>
+        </div>
+        </header>
+    <div>
+      <div id="linechart" class="container1">
+        <div id="line" class="center">
+          <canvas id="lineChart"></canvas>
+        </div>
+      </div>
+      <div id="piechart" class="container2">
+        <div id="pie" class="left">
+          <canvas id="pieChart"></canvas>
+        </div>
+        <div id="bar" class="right">
+          <canvas id="barChart"></canvas>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+    </body>
+</html>
